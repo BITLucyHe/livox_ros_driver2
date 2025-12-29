@@ -1,3 +1,18 @@
+# Changes
+
+Modified for ROS2 Humble. Removed build script for ROS1 and ROS2 Foxy.
+
+## Usage
+
+Simply clone into your ROS2 workspace `src` folder and build:
+
+```bash
+colcon build
+source install/setup.bash
+```
+
+---
+
 # Livox ROS Driver 2
 
 Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).
